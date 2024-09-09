@@ -831,6 +831,11 @@ footer {
         margin-bottom: 50px
     }
 
+    .about-image-details {
+        width: 85%;
+        height: 85%;
+    }
+
     .solar-installation {
         display:flex;
         flex-direction: column;
@@ -855,7 +860,12 @@ footer {
     }
 
     .products-section {
-        grid-template-columns: 1fr;
+        width: 90%;
+        display: block
+    }
+
+    .products-section .card1, .products-section .card {
+        margin-bottom: 30px
     }
 
     .benefits-cards {
@@ -871,6 +881,10 @@ footer {
 
     .testimonial-header {
         margin-left: 0
+    }
+
+    .footer-form form {
+        width: 100% !important
     }
 
     .author-info {
